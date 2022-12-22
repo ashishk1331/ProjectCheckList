@@ -1,0 +1,723 @@
+[
+	{
+		"title": "Word Scramble Game in HTML CSS & JavaScript | Word Game in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=4-s3g_fU7Vg",
+		"thumbnail_url": "https://i.ytimg.com/vi/4-s3g_fU7Vg/sddefault.jpg",
+		"status": false,
+		"id": "F_9AzR"
+	},
+	{
+		"title": "Build A Custom Video Player in HTML CSS & JavaScript | Custom Video Player in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=-r9TTW0D3t4",
+		"thumbnail_url": "https://i.ytimg.com/vi/-r9TTW0D3t4/sddefault.jpg",
+		"status": false,
+		"id": "Z6F65C"
+	},
+	{
+		"title": "Build An Image Editor in HTML CSS & JavaScript | Image Editor in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=YqUUvBpCtfA",
+		"thumbnail_url": "https://i.ytimg.com/vi/YqUUvBpCtfA/sddefault.jpg",
+		"status": false,
+		"id": "aDaTo_"
+	},
+	{
+		"title": "Word Guessing Game in HTML CSS & JavaScript | Guess the Word Game in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=pN5Bxjte22s",
+		"thumbnail_url": "https://i.ytimg.com/vi/pN5Bxjte22s/sddefault.jpg",
+		"status": false,
+		"id": "hJhWka"
+	},
+	{
+		"title": "Build A Simple Alarm Clock in HTML CSS & JavaScript | Alarm Clock in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=GvG_iMXjeUg",
+		"thumbnail_url": "https://i.ytimg.com/vi/GvG_iMXjeUg/sddefault.jpg",
+		"status": false,
+		"id": "G9Prq6"
+	},
+	{
+		"title": "10 Best Beginners to Intermediate JavaScript Projects | Best JavaScript Projects for Beginners",
+		"video_url": "https://www.youtube.com/watch?v=7BlxreMIa44",
+		"thumbnail_url": "https://i.ytimg.com/vi/7BlxreMIa44/sddefault.jpg",
+		"status": false,
+		"id": "ytPDqr"
+	},
+	{
+		"title": "Download Any File with Vanilla JavaScript | Download Image or Video in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=gXuzkwRivfg",
+		"thumbnail_url": "https://i.ytimg.com/vi/gXuzkwRivfg/sddefault.jpg",
+		"status": false,
+		"id": "95pjuM"
+	},
+	{
+		"title": "QR Code Scanner or Reader in HTML CSS & JavaScript | QR Code Reader in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=TEGCjBNgL70",
+		"thumbnail_url": "https://i.ytimg.com/vi/TEGCjBNgL70/sddefault.jpg",
+		"status": false,
+		"id": "1xtKm8"
+	},
+	{
+		"title": "Build A Language Translator App in HTML CSS & JavaScript | Translator App in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=LiLlsGUW4AQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/LiLlsGUW4AQ/sddefault.jpg",
+		"status": false,
+		"id": "lcAKJC"
+	},
+	{
+		"title": "Build A Notes App in HTML CSS & JavaScript | Notes App in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=AkIUtUWpyZs",
+		"thumbnail_url": "https://i.ytimg.com/vi/AkIUtUWpyZs/sddefault.jpg",
+		"status": false,
+		"id": "PupaNk"
+	},
+	{
+		"title": "QR Code Generator in HTML CSS & JavaScript | QR Code Generator in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=pv5K28zVepE",
+		"thumbnail_url": "https://i.ytimg.com/vi/pv5K28zVepE/sddefault.jpg",
+		"status": false,
+		"id": "5ivniZ"
+	},
+	{
+		"title": "Build A Palindrome Checker in HTML CSS & JavaScript | Palindrome Checker in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=dLU2wN8P6yY",
+		"thumbnail_url": "https://i.ytimg.com/vi/dLU2wN8P6yY/sddefault.jpg",
+		"status": false,
+		"id": "AMdIGo"
+	},
+	{
+		"title": "Create A Todo List App in HTML CSS & JavaScript | Todo App in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=2QIMUBilooc",
+		"thumbnail_url": "https://i.ytimg.com/vi/2QIMUBilooc/sddefault.jpg",
+		"status": false,
+		"id": "B9-xTZ"
+	},
+	{
+		"title": "Create A Custom Select Menu in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=z0avfnlBRto",
+		"thumbnail_url": "https://i.ytimg.com/vi/z0avfnlBRto/sddefault.jpg",
+		"status": false,
+		"id": "RkrxHB"
+	},
+	{
+		"title": "Build A Memory Card Game in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=DABkhfsBAWw",
+		"thumbnail_url": "https://i.ytimg.com/vi/DABkhfsBAWw/sddefault.jpg",
+		"status": false,
+		"id": "mMtvf9"
+	},
+	{
+		"title": "Custom Right Click Context Menu in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=w8xdqfez3qU",
+		"thumbnail_url": "https://i.ytimg.com/vi/w8xdqfez3qU/sddefault.jpg",
+		"status": false,
+		"id": "L-iE0g"
+	},
+	{
+		"title": "Typing Speed Test Game in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=Hg80AjDNnJk",
+		"thumbnail_url": "https://i.ytimg.com/vi/Hg80AjDNnJk/sddefault.jpg",
+		"status": false,
+		"id": "ZAfdVn"
+	},
+	{
+		"title": "Price Range Slider with Min-Max Input in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=FShnKqPXknI",
+		"thumbnail_url": "https://i.ytimg.com/vi/FShnKqPXknI/sddefault.jpg",
+		"status": false,
+		"id": "Xfw29F"
+	},
+	{
+		"title": "Build A Random Quote Generator in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=I0v9ZOY3_0k",
+		"thumbnail_url": "https://i.ytimg.com/vi/I0v9ZOY3_0k/sddefault.jpg",
+		"status": false,
+		"id": "qtpWxh"
+	},
+	{
+		"title": "Top 10 JavaScript Projects To Enhance Your Skills | JavaScript Project Ideas with Free Source Codes",
+		"video_url": "https://www.youtube.com/watch?v=9w_ED8-Lfj0",
+		"thumbnail_url": "https://i.ytimg.com/vi/9w_ED8-Lfj0/sddefault.jpg",
+		"status": false,
+		"id": "AqpKzd"
+	},
+	{
+		"title": "Text To Speech Converter in HTML CSS & JavaScript | No External Library or API Used",
+		"video_url": "https://www.youtube.com/watch?v=cvZrppquLQg",
+		"thumbnail_url": "https://i.ytimg.com/vi/cvZrppquLQg/sddefault.jpg",
+		"status": false,
+		"id": "cJnuqL"
+	},
+	{
+		"title": "Build A Dictionary App in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=uqgCF3JIHkA",
+		"thumbnail_url": "https://i.ytimg.com/vi/uqgCF3JIHkA/sddefault.jpg",
+		"status": false,
+		"id": "wzAvGh"
+	},
+	{
+		"title": "Add Tags Input Box in HTML CSS & JavaScript | Tags Input in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=BnXv1dwvebY",
+		"thumbnail_url": "https://i.ytimg.com/vi/BnXv1dwvebY/sddefault.jpg",
+		"status": false,
+		"id": "rE3Y2w"
+	},
+	{
+		"title": "Build A Currency Converter App in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=UY7F37KHyI8",
+		"thumbnail_url": "https://i.ytimg.com/vi/UY7F37KHyI8/sddefault.jpg",
+		"status": false,
+		"id": "4pbD__"
+	},
+	{
+		"title": "Build A Weather App in HTML CSS & JavaScript | Weather App in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=c1r-NqYkFPc",
+		"thumbnail_url": "https://i.ytimg.com/vi/c1r-NqYkFPc/sddefault.jpg",
+		"status": false,
+		"id": "uTdJOv"
+	},
+	{
+		"title": "How to Get User Location in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=J-lUOFXxG_0",
+		"thumbnail_url": "https://i.ytimg.com/vi/J-lUOFXxG_0/sddefault.jpg",
+		"status": false,
+		"id": "b9WNsn"
+	},
+	{
+		"title": "Draggable Div Element in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=8zcfIu3tyw4",
+		"thumbnail_url": "https://i.ytimg.com/vi/8zcfIu3tyw4/sddefault.jpg",
+		"status": false,
+		"id": "YUdxvY"
+	},
+	{
+		"title": "Create Custom Captcha using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=_0B7wy05WHk",
+		"thumbnail_url": "https://i.ytimg.com/vi/_0B7wy05WHk/sddefault.jpg",
+		"status": false,
+		"id": "vZ24Ij"
+	},
+	{
+		"title": "File Upload with Progress Bar in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=_xDCVt1F6O0",
+		"thumbnail_url": "https://i.ytimg.com/vi/_xDCVt1F6O0/sddefault.jpg",
+		"status": false,
+		"id": "CQouYP"
+	},
+	{
+		"title": "How to Auto Resize Textarea using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=Yor9Y73M764",
+		"thumbnail_url": "https://i.ytimg.com/vi/Yor9Y73M764/sddefault.jpg",
+		"status": false,
+		"id": "QyaaLz"
+	},
+	{
+		"title": "How to Detect User Browser in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=OX2mvhFUoYM",
+		"thumbnail_url": "https://i.ytimg.com/vi/OX2mvhFUoYM/sddefault.jpg",
+		"status": false,
+		"id": "TSNO4d"
+	},
+	{
+		"title": "Download Any YouTube Video Thumbnail using HTML CSS JavaScript & PHP",
+		"video_url": "https://www.youtube.com/watch?v=FucPPCPDd2Y",
+		"thumbnail_url": "https://i.ytimg.com/vi/FucPPCPDd2Y/sddefault.jpg",
+		"status": false,
+		"id": "lrMRpC"
+	},
+	{
+		"title": "[Demo] Download Any YouTube Video Thumbnail using HTML CSS JavaScript & PHP",
+		"video_url": "https://www.youtube.com/watch?v=SuU2bhyuRk8",
+		"thumbnail_url": "https://i.ytimg.com/vi/SuU2bhyuRk8/sddefault.jpg",
+		"status": false,
+		"id": "Di5acM"
+	},
+	{
+		"title": "10 Best JavaScript Projects for Beginners [JavaScript Examples]",
+		"video_url": "https://www.youtube.com/watch?v=pvqOaGDm1wU",
+		"thumbnail_url": "https://i.ytimg.com/vi/pvqOaGDm1wU/sddefault.jpg",
+		"status": false,
+		"id": "Y7H4zx"
+	},
+	{
+		"title": "Detect AdBlock using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=D_s8jFdJ-gc",
+		"thumbnail_url": "https://i.ytimg.com/vi/D_s8jFdJ-gc/sddefault.jpg",
+		"status": false,
+		"id": "0qUzXB"
+	},
+	{
+		"title": "How to Check Network Status using JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=i1J8XqX2rlE",
+		"thumbnail_url": "https://i.ytimg.com/vi/i1J8XqX2rlE/sddefault.jpg",
+		"status": false,
+		"id": "KvSOkU"
+	},
+	{
+		"title": "Create Custom Music Player in HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=1-CvPn4AbT4",
+		"thumbnail_url": "https://i.ytimg.com/vi/1-CvPn4AbT4/sddefault.jpg",
+		"status": false,
+		"id": "jRR_vS"
+	},
+	{
+		"title": "Tic Tac Toe Game using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=sNO5awLw9h0",
+		"thumbnail_url": "https://i.ytimg.com/vi/sNO5awLw9h0/sddefault.jpg",
+		"status": false,
+		"id": "SewJ3A"
+	},
+	{
+		"title": "Twitter Tweet Box with Character Limit Highlighting using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=_pbuwzly6xA",
+		"thumbnail_url": "https://i.ytimg.com/vi/_pbuwzly6xA/sddefault.jpg",
+		"status": false,
+		"id": "MsDAGE"
+	},
+	{
+		"title": "Create a Quiz App with Timer using HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=WUBhpSRS_fk",
+		"thumbnail_url": "https://i.ytimg.com/vi/WUBhpSRS_fk/sddefault.jpg",
+		"status": false,
+		"id": "5AjFOc"
+	},
+	{
+		"title": "Create a Quiz App with Timer using HTML CSS & JavaScript | Quiz Web App using JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=pQr4O1OITJo",
+		"thumbnail_url": "https://i.ytimg.com/vi/pQr4O1OITJo/sddefault.jpg",
+		"status": false,
+		"id": "jqnwu9"
+	},
+	{
+		"title": "Poll UI Design using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=28XkjmLcUXU",
+		"thumbnail_url": "https://i.ytimg.com/vi/28XkjmLcUXU/sddefault.jpg",
+		"status": false,
+		"id": "2h9pVi"
+	},
+	{
+		"title": "Cookie Consent Box using HTML CSS & JavaScript | Learn to Set Cookies to the User Browser",
+		"video_url": "https://www.youtube.com/watch?v=TWxRELEDAdI",
+		"thumbnail_url": "https://i.ytimg.com/vi/TWxRELEDAdI/sddefault.jpg",
+		"status": false,
+		"id": "1Sd9iM"
+	},
+	{
+		"title": "Limit Input Characters using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=RmhTNckxdwc",
+		"thumbnail_url": "https://i.ytimg.com/vi/RmhTNckxdwc/sddefault.jpg",
+		"status": false,
+		"id": "NuAIA1"
+	},
+	{
+		"title": "Popup Share Modal UI Design using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=-gssMGtHwK4",
+		"thumbnail_url": "https://i.ytimg.com/vi/-gssMGtHwK4/sddefault.jpg",
+		"status": false,
+		"id": "m-Fr0S"
+	},
+	{
+		"title": "Drag & Drop or Browse - File upload Feature using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=0HCiH4Tk04I",
+		"thumbnail_url": "https://i.ytimg.com/vi/0HCiH4Tk04I/sddefault.jpg",
+		"status": false,
+		"id": "dCx7js"
+	},
+	{
+		"title": "Responsive Image Lightbox using HTML CSS & JavaScript | Lightbox Gallery in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=rz_8NDyC6Xk",
+		"thumbnail_url": "https://i.ytimg.com/vi/rz_8NDyC6Xk/sddefault.jpg",
+		"status": false,
+		"id": "ds6X8t"
+	},
+	{
+		"title": "Responsive Filterable Image Gallery using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=OeMuUKedtPc",
+		"thumbnail_url": "https://i.ytimg.com/vi/OeMuUKedtPc/sddefault.jpg",
+		"status": false,
+		"id": "-OlGLa"
+	},
+	{
+		"title": "Pagination UI Design using HTML CSS & JavaScript | Fully Functional Pagination Design in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=d2ve7xQNco8",
+		"thumbnail_url": "https://i.ytimg.com/vi/d2ve7xQNco8/sddefault.jpg",
+		"status": false,
+		"id": "ycU_Vu"
+	},
+	{
+		"title": "Todo List using HTML CSS & JavaScript | Todo List in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=ykuD2QOZkhc",
+		"thumbnail_url": "https://i.ytimg.com/vi/ykuD2QOZkhc/sddefault.jpg",
+		"status": false,
+		"id": "zphWqA"
+	},
+	{
+		"title": "Custom Emoji Range Slider using HTML CSS & JavaScript | Mood Slider in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=RfPXFlW01fU",
+		"thumbnail_url": "https://i.ytimg.com/vi/RfPXFlW01fU/sddefault.jpg",
+		"status": false,
+		"id": "0DN_Op"
+	},
+	{
+		"title": "Drag & Drop List using HTML CSS & JavaScript | Draggable List in JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=z54suepKiIU",
+		"thumbnail_url": "https://i.ytimg.com/vi/z54suepKiIU/sddefault.jpg",
+		"status": false,
+		"id": "HX4tAe"
+	},
+	{
+		"title": "Responsive Counter up Animation on Scroll using HTML CSS & jQuery",
+		"video_url": "https://www.youtube.com/watch?v=DdwNHFWVzO4",
+		"thumbnail_url": "https://i.ytimg.com/vi/DdwNHFWVzO4/sddefault.jpg",
+		"status": false,
+		"id": "mz9ZQp"
+	},
+	{
+		"title": "Responsive Circular Progress Bar using HTML CSS & jQuery",
+		"video_url": "https://www.youtube.com/watch?v=Ynr4MR5rQGQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/Ynr4MR5rQGQ/sddefault.jpg",
+		"status": false,
+		"id": "0RQdEH"
+	},
+	{
+		"title": "Product Cards with Fly to Cart Effect using HTML CSS & jQuery",
+		"video_url": "https://www.youtube.com/watch?v=Ee-eHfG2GpQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/Ee-eHfG2GpQ/sddefault.jpg",
+		"status": false,
+		"id": "zigx2p"
+	},
+	{
+		"title": "Search Bar with Auto-complete Search Suggestions using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=QxMBHi_ZiT8",
+		"thumbnail_url": "https://i.ytimg.com/vi/QxMBHi_ZiT8/sddefault.jpg",
+		"status": false,
+		"id": "qN_WkK"
+	},
+	{
+		"title": "Awesome Image Comparison Slider using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=7O3rEaZ_iUU",
+		"thumbnail_url": "https://i.ytimg.com/vi/7O3rEaZ_iUU/sddefault.jpg",
+		"status": false,
+		"id": "AP9Ija"
+	},
+	{
+		"title": "Animated Search Box using HTML CSS & JavaScript | Elastic Animation on Search Bar",
+		"video_url": "https://www.youtube.com/watch?v=kNO2WkKJzu0",
+		"thumbnail_url": "https://i.ytimg.com/vi/kNO2WkKJzu0/sddefault.jpg",
+		"status": false,
+		"id": "Cfyo8I"
+	},
+	{
+		"title": "Digital Clock with Colorful Glowing Effect using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=fAHI1uqObjY",
+		"thumbnail_url": "https://i.ytimg.com/vi/fAHI1uqObjY/sddefault.jpg",
+		"status": false,
+		"id": "58HI6Q"
+	},
+	{
+		"title": "Neumorphism Working Keyboard Design using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=fsBJXiP--Jc",
+		"thumbnail_url": "https://i.ytimg.com/vi/fsBJXiP--Jc/sddefault.jpg",
+		"status": false,
+		"id": "A3Xu2X"
+	},
+	{
+		"title": "Full Screen Search Bar Animation using HTML CSS & jQuery",
+		"video_url": "https://www.youtube.com/watch?v=uQaVyb9s_qg",
+		"thumbnail_url": "https://i.ytimg.com/vi/uQaVyb9s_qg/sddefault.jpg",
+		"status": false,
+		"id": "mQfURn"
+	},
+	{
+		"title": "Circular Progress Bar using HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=_s0rqUkQkrQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/_s0rqUkQkrQ/sddefault.jpg",
+		"status": false,
+		"id": "9eE6aU"
+	},
+	{
+		"title": "Button Ripple Effect in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=SR11Thx3lFk",
+		"thumbnail_url": "https://i.ytimg.com/vi/SR11Thx3lFk/sddefault.jpg",
+		"status": false,
+		"id": "9YKhZI"
+	},
+	{
+		"title": "Random Password Generator App in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=dNd5pEUCiAU",
+		"thumbnail_url": "https://i.ytimg.com/vi/dNd5pEUCiAU/sddefault.jpg",
+		"status": false,
+		"id": "k7SeQh"
+	},
+	{
+		"title": "Password Strength Check in HTML CSS & JavaScript (Part -2) | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=tQgw9HJc-Yw",
+		"thumbnail_url": "https://i.ytimg.com/vi/tQgw9HJc-Yw/sddefault.jpg",
+		"status": false,
+		"id": "J6eSnZ"
+	},
+	{
+		"title": "Password Strength Check in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=xHdJTAtLOOs",
+		"thumbnail_url": "https://i.ytimg.com/vi/xHdJTAtLOOs/sddefault.jpg",
+		"status": false,
+		"id": "OPKpel"
+	},
+	{
+		"title": "Owl-carousel Cards Slider in HTML CSS & jQuery | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=EG-sXgY1md4",
+		"thumbnail_url": "https://i.ytimg.com/vi/EG-sXgY1md4/sddefault.jpg",
+		"status": false,
+		"id": "PyZuCI"
+	},
+	{
+		"title": "Confirm Password Check in HTML CSS & JavaScript [Part -2] | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=wqlxbPJV_NM",
+		"thumbnail_url": "https://i.ytimg.com/vi/wqlxbPJV_NM/sddefault.jpg",
+		"status": false,
+		"id": "AeNxGE"
+	},
+	{
+		"title": "Confirm Password Check in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=J-P_rzGb9-A",
+		"thumbnail_url": "https://i.ytimg.com/vi/J-P_rzGb9-A/sddefault.jpg",
+		"status": false,
+		"id": "k5dD0X"
+	},
+	{
+		"title": "Preview Image Before Upload in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=AYjOyQhZiK0",
+		"thumbnail_url": "https://i.ytimg.com/vi/AYjOyQhZiK0/sddefault.jpg",
+		"status": false,
+		"id": "8rtebv"
+	},
+	{
+		"title": "Custom File Upload Button in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=j8X_BP9Y5VA",
+		"thumbnail_url": "https://i.ytimg.com/vi/j8X_BP9Y5VA/sddefault.jpg",
+		"status": false,
+		"id": "thX_Qw"
+	},
+	{
+		"title": "Multi Step Form with Step Progress Bar in HTML CSS & JavaScript [Part -2]",
+		"video_url": "https://www.youtube.com/watch?v=UldBI0fdMJw",
+		"thumbnail_url": "https://i.ytimg.com/vi/UldBI0fdMJw/sddefault.jpg",
+		"status": false,
+		"id": "U-MQqh"
+	},
+	{
+		"title": "Email Validation Check in HTML CSS & JavaScript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=qGzJtVbXPhY",
+		"thumbnail_url": "https://i.ytimg.com/vi/qGzJtVbXPhY/sddefault.jpg",
+		"status": false,
+		"id": "NSGybf"
+	},
+	{
+		"title": "Working Digital Clock using HTML CSS & Javascript | Neumorphism UI Design",
+		"video_url": "https://www.youtube.com/watch?v=CP2V4tN8kYI",
+		"thumbnail_url": "https://i.ytimg.com/vi/CP2V4tN8kYI/sddefault.jpg",
+		"status": false,
+		"id": "o2BcNr"
+	},
+	{
+		"title": "Awesome To-do List using HTML CSS & Javascript (Part -2) | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=T8A7rGUsUrQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/T8A7rGUsUrQ/sddefault.jpg",
+		"status": false,
+		"id": "fmLJMH"
+	},
+	{
+		"title": "Working Calculator using HTML CSS & Javascript | Neumorphism UI Design",
+		"video_url": "https://www.youtube.com/watch?v=LmkBDoQv6SA",
+		"thumbnail_url": "https://i.ytimg.com/vi/LmkBDoQv6SA/sddefault.jpg",
+		"status": false,
+		"id": "BaqAa6"
+	},
+	{
+		"title": "Working Analog Clock using HTML CSS & Javascript | Neumorphsim UI Design",
+		"video_url": "https://www.youtube.com/watch?v=NVoIEEb0Hqg",
+		"thumbnail_url": "https://i.ytimg.com/vi/NVoIEEb0Hqg/sddefault.jpg",
+		"status": false,
+		"id": "BhJUK2"
+	},
+	{
+		"title": "Custom Warning Alert Notification using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=hm79I2JpwJw",
+		"thumbnail_url": "https://i.ytimg.com/vi/hm79I2JpwJw/sddefault.jpg",
+		"status": false,
+		"id": "719r-j"
+	},
+	{
+		"title": "Automatic Image Slideshow Effect HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=KxfEs08tTWg",
+		"thumbnail_url": "https://i.ytimg.com/vi/KxfEs08tTWg/sddefault.jpg",
+		"status": false,
+		"id": "I3NPRk"
+	},
+	{
+		"title": "Image Slider with Controls using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=LC9LkDXkn6k",
+		"thumbnail_url": "https://i.ytimg.com/vi/LC9LkDXkn6k/sddefault.jpg",
+		"status": false,
+		"id": "-6DbUd"
+	},
+	{
+		"title": "Card with 3D Hover Effect | HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=5ZEqwRepZao",
+		"thumbnail_url": "https://i.ytimg.com/vi/5ZEqwRepZao/sddefault.jpg",
+		"status": false,
+		"id": "PjJXl2"
+	},
+	{
+		"title": "Password Show Hide Button with HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=yK_vRQ2ICg4",
+		"thumbnail_url": "https://i.ytimg.com/vi/yK_vRQ2ICg4/sddefault.jpg",
+		"status": false,
+		"id": "uP4wO-"
+	},
+	{
+		"title": "Animated Sliding Menu Items on Click with HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=57GkyGMnmsw",
+		"thumbnail_url": "https://i.ytimg.com/vi/57GkyGMnmsw/sddefault.jpg",
+		"status": false,
+		"id": "DF4dCQ"
+	},
+	{
+		"title": "Scroll Down to Popout Video on Bottom | HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=X8tx0cgPWnc",
+		"thumbnail_url": "https://i.ytimg.com/vi/X8tx0cgPWnc/sddefault.jpg",
+		"status": false,
+		"id": "N6N0Gj"
+	},
+	{
+		"title": "Animated Gradient Shiny Loader with HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=5JzEltt50LE",
+		"thumbnail_url": "https://i.ytimg.com/vi/5JzEltt50LE/sddefault.jpg",
+		"status": false,
+		"id": "s0EioD"
+	},
+	{
+		"title": "Scroll Down to Hide Navbar with HTML CSS & JavaScript | Video Tutorial",
+		"video_url": "https://www.youtube.com/watch?v=3mjxYI7bGx0",
+		"thumbnail_url": "https://i.ytimg.com/vi/3mjxYI7bGx0/sddefault.jpg",
+		"status": false,
+		"id": "w2m_c3"
+	},
+	{
+		"title": "Sliding Subscription Box using HTML CSS & Javascript | Coding Nepal",
+		"video_url": "https://www.youtube.com/watch?v=yQ5UbCJYYjs",
+		"thumbnail_url": "https://i.ytimg.com/vi/yQ5UbCJYYjs/sddefault.jpg",
+		"status": false,
+		"id": "TAzwbv"
+	},
+	{
+		"title": "Responsive Animated Email Field using HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=7Dm60mUjZ_s",
+		"thumbnail_url": "https://i.ytimg.com/vi/7Dm60mUjZ_s/sddefault.jpg",
+		"status": false,
+		"id": "y0CESC"
+	},
+	{
+		"title": "Animated Menu Bar using HTML CSS only | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=bmnoS7hhZDM",
+		"thumbnail_url": "https://i.ytimg.com/vi/bmnoS7hhZDM/sddefault.jpg",
+		"status": false,
+		"id": "zmIRPy"
+	},
+	{
+		"title": "Animated Login Form in HTML & CSS (Part -2) | Password Show & Hide Button",
+		"video_url": "https://www.youtube.com/watch?v=T26WoGrB4Jg",
+		"thumbnail_url": "https://i.ytimg.com/vi/T26WoGrB4Jg/sddefault.jpg",
+		"status": false,
+		"id": "I1uiqL"
+	},
+	{
+		"title": "Animated Dark Mode Button using HTML CSS | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=FrrrDeuw0CE",
+		"thumbnail_url": "https://i.ytimg.com/vi/FrrrDeuw0CE/sddefault.jpg",
+		"status": false,
+		"id": "fbo6Iw"
+	},
+	{
+		"title": "Page Scroll Down Indicator Line in HTML CSS & Javascript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=2lmaGPcdra8",
+		"thumbnail_url": "https://i.ytimg.com/vi/2lmaGPcdra8/sddefault.jpg",
+		"status": false,
+		"id": "5X6US3"
+	},
+	{
+		"title": "Build A Analog Clock using HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=qU1GOUJ2e6U",
+		"thumbnail_url": "https://i.ytimg.com/vi/qU1GOUJ2e6U/sddefault.jpg",
+		"status": false,
+		"id": "66-hBF"
+	},
+	{
+		"title": "Text Mask Moving Animation using HTML CSS & Javascript | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=MiqICOHghSs",
+		"thumbnail_url": "https://i.ytimg.com/vi/MiqICOHghSs/sddefault.jpg",
+		"status": false,
+		"id": "GuRsSE"
+	},
+	{
+		"title": "Loading Animation using HTML CSS & Javascript | Animated Progress Bar",
+		"video_url": "https://www.youtube.com/watch?v=JLlBTY8n9Fk",
+		"thumbnail_url": "https://i.ytimg.com/vi/JLlBTY8n9Fk/sddefault.jpg",
+		"status": false,
+		"id": "236Xrt"
+	},
+	{
+		"title": "Build Calculator using HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=p3FfcJN6lrE",
+		"thumbnail_url": "https://i.ytimg.com/vi/p3FfcJN6lrE/sddefault.jpg",
+		"status": false,
+		"id": "UCtaB4"
+	},
+	{
+		"title": "Image Slider using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=f__ykT47lBQ",
+		"thumbnail_url": "https://i.ytimg.com/vi/f__ykT47lBQ/sddefault.jpg",
+		"status": false,
+		"id": "wP1bxe"
+	},
+	{
+		"title": "Custom Alert Popup Box using HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=QKMFJhB9eEY",
+		"thumbnail_url": "https://i.ytimg.com/vi/QKMFJhB9eEY/sddefault.jpg",
+		"status": false,
+		"id": "cGVV7u"
+	},
+	{
+		"title": "Responsive Navigation Menu Bar using HTML CSS & JavaScript",
+		"video_url": "https://www.youtube.com/watch?v=tEC4kqzNTnM",
+		"thumbnail_url": "https://i.ytimg.com/vi/tEC4kqzNTnM/sddefault.jpg",
+		"status": false,
+		"id": "jxZcUv"
+	},
+	{
+		"title": "Scroll Top Button using HTML, CSS & JQuery | Smooth Scrolling Effect Bottom to Top",
+		"video_url": "https://www.youtube.com/watch?v=xtzcut9A-X8",
+		"thumbnail_url": "https://i.ytimg.com/vi/xtzcut9A-X8/sddefault.jpg",
+		"status": false,
+		"id": "RpLnVs"
+	},
+	{
+		"title": "Navigation Menu Bar using HTML CSS & Javascript | Hide Navbar on Scroll",
+		"video_url": "https://www.youtube.com/watch?v=ggF5JD-wBeM",
+		"thumbnail_url": "https://i.ytimg.com/vi/ggF5JD-wBeM/sddefault.jpg",
+		"status": false,
+		"id": "btPoZ0"
+	},
+	{
+		"title": "Sidebar Menu HTML CSS & JQuery | CodingNepal",
+		"video_url": "https://www.youtube.com/watch?v=_wZYf68j4GM",
+		"thumbnail_url": "https://i.ytimg.com/vi/_wZYf68j4GM/sddefault.jpg",
+		"status": false,
+		"id": "Me5yaK"
+	},
+	{
+		"title": "Animated Notification Button using HTML CSS & Javascript",
+		"video_url": "https://www.youtube.com/watch?v=CvmsAFvXENg",
+		"thumbnail_url": "https://i.ytimg.com/vi/CvmsAFvXENg/sddefault.jpg",
+		"status": false,
+		"id": "4NVAj9"
+	}
+]
