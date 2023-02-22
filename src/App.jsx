@@ -55,7 +55,10 @@ function App() {
   return (
     <>
       <Header />
-       <ul className="grid gap-12 p-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 list-none">
+       <ul className="grid gap-12 p-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 list-none" style={{
+          'backgroundImage': 'radial-gradient(#000 1px, transparent 1px)',
+          'backgroundSize': '24px 24px'
+       }}>
        {
           items.map( item => {
             return ( 
@@ -71,3 +74,12 @@ function App() {
 }
 
 export default App
+
+
+/*
+   background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+*/

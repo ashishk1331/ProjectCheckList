@@ -17,8 +17,8 @@ function ToTop({scrollToTop}){
 	return (
 		<>
 			{edge ?
-			<button onClick={()=> scrollToTop()} className="fixed left-full top-full translate-x-[-125%] translate-y-[-140%] bg-white rounded-full">
-				<ArrowCircleUp size={50} color="black" className="fill-sky-500" weight="fill" />
+			<button onClick={()=> scrollToTop()} className="fixed bottom-0 right-0 m-5 rounded-full p-4 bg-[black]">
+				<ArrowCircleUp size={24} className="fill-[white]" weight="fill" />
 			</button>
 			: null
 		}
