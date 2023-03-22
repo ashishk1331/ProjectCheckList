@@ -1,5 +1,5 @@
-import image from "./assets/cardbg.png"
 import { YoutubeLogo, Checks, CheckCircle, ArrowUpRight } from 'phosphor-react';
+import { motion } from 'framer-motion'
 
 function cn(...classes){
 	return classes.filter(Boolean).join(' ')
@@ -7,9 +7,15 @@ function cn(...classes){
 
 export default function ListItem({ id, title, video_url,thumbnail_url, status, changeState}){
 	return (
-		<li className="max-w-[280px] m-auto mt-0 p-4 rounded-xl overflow-hidden bg-[white] shadow-xl">
+		<motion.li 
+			initial={{ opacity: 0, y: "25%" }}
+        	whileInView={{ opacity: 1, y: 0 }}
+			viewport={{ once: true }}
+			transition={{ duration: 0.6 }}
+			className="max-w-[280px] m-auto mt-0 p-4 rounded-xl overflow-hidden bg-[white] shadow-xl"
+		>
 			<span className="relative w-[380px] overflow-hidden">
-				<img src={image} className="rounded-xl" />
+				<img src={thumbnail_url} className="rounded-xl" />
 				{
 					(status) ?
 					<div className="absolute flex items-center justify-around rounded-xl w-full h-full inset-0 bg-[#06d6a050]">
@@ -46,6 +52,6 @@ export default function ListItem({ id, title, video_url,thumbnail_url, status, c
 					<ArrowUpRight weight="bold" />
 				</a>
 			</span>
-		</li>
+		</motion.li>
 	);
 }

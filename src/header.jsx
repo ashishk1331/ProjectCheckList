@@ -1,10 +1,14 @@
 import { CheckSquareOffset, Circle, At, TwitterLogo, ArrowSquareOut } from 'phosphor-react';
 
-function Header(){
+function Header(props){
 	let svgSize = 24;
+	let doneCount = props.items.filter(i => i.status).length
 
 	return (
-		<header className="w-full px-16 min-[320px]:px-8 py-8 bg-[#06d6a050]">
+		<div
+			className="bg-[white] w-full h-flex"
+		>
+		<header className="w-full px-16 py-8 bg-[#06d6a050] mx-auto">
 			<section className="flex items-center text-lg mb-2 flex-wrap">
 				<CheckSquareOffset size={svgSize} />
 				<h3 className="uppercase">Check List</h3>
@@ -16,9 +20,13 @@ function Header(){
 				</a>
 			</section>
 			<h1 className="text-4xl">
-				A curated collection for web app making practice. 
+				A curated collection for web ui making practice. 
 			</h1>
+			<h2 className="mt-4 text-xl">
+				{ doneCount } finished
+			</h2>
 		</header>
+		</div>
 	);
 }
 

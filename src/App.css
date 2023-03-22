@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 *{
 	font-family: 'Poppins', sans-serif;
+}
+
+.h-flex{
+  @apply flex items-center gap-2
+}
+
+.v-flex{
+  @apply flex flex-col items-center gap-2
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #06d6a025;
+}
+
+::selection {
+  background: #06d6a025;
+}
+
+body{
+  background-image: radial-gradient(#000 1px, transparent 1px);
+  background-size: 24px 24px;
 }
