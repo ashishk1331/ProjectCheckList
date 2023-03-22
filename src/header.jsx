@@ -3,6 +3,7 @@ import { CheckSquareOffset, Circle, At, TwitterLogo, ArrowSquareOut } from 'phos
 function Header(props){
 	let svgSize = 24;
 	let doneCount = props.items.filter(i => i.status).length
+	let total = props.items.length
 
 	return (
 		<div
@@ -22,9 +23,17 @@ function Header(props){
 			<h1 className="text-4xl">
 				A curated collection for web ui making practice. 
 			</h1>
-			<h2 className="mt-4 text-xl">
+			<div className="w-full h-1 rounded-full overflow-hidden bg-gray-800 my-4">
+				<div 
+					className="h-full rounded-full bg-[#06d6a0] bg-white"
+					style={{
+						width: Math.floor((doneCount / total) * 100) + '%'
+					}}
+				/>
+			</div>
+			<p>
 				{ doneCount } finished
-			</h2>
+			</p>
 		</header>
 		</div>
 	);
