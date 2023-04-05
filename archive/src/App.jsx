@@ -6,6 +6,7 @@ import Stats from './Stats'
 import './App.css'
 import data from './assets/data.json'; 
 import { useState, useEffect, useRef } from 'react';
+import { getPage } from './util/notion'
 
 function getAllTasks(){
   return new Set(JSON.parse(localStorage.getItem('tasks')));
@@ -71,9 +72,13 @@ export default function App() {
     window.scrollTo(0,0);
   }
 
+  useEffect(() => {
+    getPage()
+  }, [])
+
   return (
     <>
-      <Header items={items}/>
+      <Header/>
       {/*<Stats items={items} />*/}
        <ul className="grid gap-12 p-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 list-none">
        {
