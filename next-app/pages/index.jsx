@@ -33,12 +33,12 @@ export default function Home(props) {
 export async function getStaticProps(context) {
   // Initializing a client
   const notion = new Client({
-      auth: 'secret_72QqEKMDGtVl2mzJ1V8vzIfEQbCJVRiYXoonh8zNLuT',
+      auth: process.env.NOTION_TOKEN,
   })
 
   let title = ''
 
-  const page_id = '7220d79a4f0b4adba9201b5b15eef3d1'
+  const page_id = process.env.NOTION_PAGE_ID
   let data = await notion.pages.retrieve({ page_id });
 
   title = data.properties.title.title[0].plain_text
