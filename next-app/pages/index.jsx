@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Client } from "@notionhq/client"
 
@@ -27,7 +26,7 @@ export default function Home(props) {
         <Header icon={props.data.icon.file.url} title={props.title} editedAt={props.data.last_edited_time} />
         <ul className="pt-3">
           {
-            props.posts.map(i => <Task key={i.id} title={i.title} icon={i.icon.file.url} />)
+            props.posts.map(i => <Task key={i.id} id={i.id} title={i.title} icon={i.icon.file.url} />)
           }
         </ul>
         <Footer />
@@ -71,5 +70,6 @@ export async function getStaticProps(context) {
 
   return {
     props: {data, title, posts}, // will be passed to the page component as props
+    revalidate: 60 * 60 * 12
   }
 }
