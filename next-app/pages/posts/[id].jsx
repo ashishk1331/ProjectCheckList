@@ -15,10 +15,13 @@ function parser(block){
 
 		case 'image':
 			return <Image 
+				key={block.id}
 				src={block[block.type].file.url}
-				width={window.innerWidth}
-				height={window.innerHeight}
-				className="w-full border-2 rounded border-black my-6"
+				width="0"
+			    height="0"
+			    sizes="100vw"
+				className="w-full border-2 rounded my-6"
+				alt={`image for block ${block.id}`}
 			/>
 
 		default:
@@ -28,7 +31,7 @@ function parser(block){
 
 export default function Post(props){
 
-	// console.log(props)
+	console.log(props)
 
 	return (
 		<>
