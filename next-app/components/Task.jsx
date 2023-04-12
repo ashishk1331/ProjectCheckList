@@ -13,9 +13,11 @@ export default function Task(props){
 				className="w-12 h-12 mx-3"
 				alt={props.title}
 			/>
-			<Link href={`/posts/${props.id}`}>
-				<h1 className="text-xl w-full md:w-fit cursor-pointer ms-3 md:mx-0 order-last md:order-none">{props.title}</h1>
-			</Link>
+			<h1 className="text-xl w-full md:w-fit cursor-pointer ms-3 md:mx-0 order-last md:order-none">
+				<Link href={`/posts/${props.id}`}>
+					{props.title}
+				</Link>
+			</h1>
 			<Button cl="ml-auto">
 				<Check className="w-6 h-6" />
 			</Button>
