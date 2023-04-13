@@ -10,19 +10,23 @@ function parser(block){
 	switch(block.type){
 		case 'paragraph':
 			return <p key={block.id} className="md:text-lg">{
-				block[block.type].rich_text[0].plain_text
+				block[block.type]?.rich_text[0]?.plain_text || ''
 			}</p>	
 
 		case 'image':
-			return <Image 
-				key={block.id}
-				src={block[block.type].file.url}
-				width="0"
-			    height="0"
-			    sizes="100vw"
-				className="w-full border-2 rounded my-6"
-				alt={`image for block ${block.id}`}
-			/>
+			return <>
+			 	<div className="w-full h-fit border-2 rounded flex mt-12 mb-2">
+					<Image 
+						key={block.id}
+						src={block[block.type].file.url}
+						width={640}
+					    height={640}
+						className="w-auto max-h-[480px] mx-auto"
+						alt={block[block.type].caption[0].plain_text}
+					/>
+				</div>
+				<p className="mb-12 mx-auto w-fit text-gray-600 italic" >fig. {block[block.type].caption[0].plain_text}</p>
+			</>
 
 		default:
 			return <p key={block.id}>Not supported type.</p>
@@ -31,7 +35,7 @@ function parser(block){
 
 export default function Post(props){
 
-	console.log(props)
+	// console.log(props)
 
 	return (
 		<>
