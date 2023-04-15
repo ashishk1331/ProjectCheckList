@@ -1,9 +1,12 @@
-import { TreeEvergreen, Check, BookmarkSimple } from '@phosphor-icons/react'
+import { ArrowClockwise, Check, BookmarkSimple } from '@phosphor-icons/react'
 import Button from './Button'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Task(props){
+
+	const done = props.completed.includes(props.id)
+
 	return (
 		<li className="flex flex-wrap items-center gap-3 my-4 border-2 rounded p-3">
 			<Image 
@@ -18,12 +21,17 @@ export default function Task(props){
 					{props.title}
 				</Link>
 			</h1>
-			<Button cl="ml-auto">
-				<Check className="w-6 h-6" />
+			<Button cl="ml-auto" onClick={() => {
+				console.log('clieckde')
+				props.updateCompleted(props.id)
+			}}>
+				{
+					done ? <ArrowClockwise className="w-6 h-6" /> : <Check className="w-6 h-6" />
+				}
 			</Button>
-			<Button>
+{/*			<Button>
 				<BookmarkSimple className="w-6 h-6" />
-			</Button>
+			</Button>*/}
 		</li>
 	)
 }

@@ -6,9 +6,78 @@ import Task from '../components/Task'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
+import { useEffect, useState } from 'react'
+import { supabase } from '../util/SupabaseClient'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home(props) {
+
+  const [ user, setUser ] = useState(null)
+  const [ completed, setCompleted ] = useState([])
+
+  async function handleSignOut(){
+    const { error } = await supabase.auth.signOut()
+    setUser(null)
+    setCompleted([])
+  }
+
+  async function updateCompleted(id){
+
+    let newList = [];
+
+    if(!completed.includes(id)){
+      newList = [id, ...completed]
+    } else {
+      newList = completed.filter(i => i !== id)
+    }
+
+    setCompleted(newList)
+
+    const { error } = await supabase
+        .from('checklist')
+        .upsert({ 'completed': newList, 'id': user.id })
+
+    if(error){
+      console.log(error)
+    }
+  }
+
+  useEffect(() => {
+    (async function(){
+
+      const {
+          data,
+      } = await supabase.auth.getUser();
+        
+      if(data.user){
+
+        setUser(data.user)
+
+        let { data: checklist, error } = await supabase
+          .from('checklist')
+          .select()
+          .eq('id', data.user.id)
+
+        if(checklist.length < 1){
+
+          const { error } = await supabase
+            .from('checklist')
+            .insert({ id: data.user.id, foreign_key: data.user.id, completed: [] })
+
+          if(error){
+            console.log(error)
+          }
+
+        } else {
+
+          setCompleted(checklist[0].completed)
+
+        }
+      }
+
+    })()
+  }, [])
 
   return (
     <>
@@ -23,10 +92,18 @@ export default function Home(props) {
       </Head>
       <main className="p-3 px-6 max-w-[720px] mx-auto">
         <div className="w-full h-48 bg-gray-200 absolute inset-0 -z-10" />
-        <Header icon={props.data.icon.file.url} title={props.title} editedAt={props.data.last_edited_time} />
+        <Header handleSignOut={handleSignOut} user={user} icon={props.data.icon.file.url} title={props.title} editedAt={props.data.last_edited_time} />
         <ul className="pt-3">
           {
-            props.posts.map(i => <Task key={i.id} id={i.id} title={i.title} icon={i.icon.file.url} />)
+            props.posts.map(i => <Task 
+                key={i.id} 
+                completed={completed} 
+                updateCompleted={updateCompleted} 
+                userId={user?.id || null} 
+                id={i.id} 
+                title={i.title} 
+                icon={i.icon.file.url} 
+              />)
           }
         </ul>
         <Footer />
