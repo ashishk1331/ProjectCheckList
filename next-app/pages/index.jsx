@@ -26,9 +26,10 @@ export default function Home(props) {
         <Header icon={props.data.icon.file.url} title={props.title} editedAt={props.data.last_edited_time} />
         <ul className="pt-3">
           {
-            props.posts.map(i => <Task 
+            props.posts.map((i, index) => <Task 
                 key={i.id}
-                id={i.id} 
+                id={i.id}
+                isLast={index + 1 === props.posts.length}
                 title={i.title} 
                 icon={i.icon.file.url} 
               />)

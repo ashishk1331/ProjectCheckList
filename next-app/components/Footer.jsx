@@ -2,9 +2,9 @@ import { Baseball } from "@phosphor-icons/react";
 
 export default function Footer(props) {
 	return (
-		<footer className="w-full pt-8 my-16 border-t-2 flex flex-col items-center gap-6">
+		<footer className="w-full pt-8 my-16 flex flex-col items-center gap-6">
 			<Baseball weight="fill" className="fill-green" size={32} />
-			<p className="text-center text-gray-400">
+			<p className="text-center">
 				Curated by{" "}
 				<a
 					href="https://twitter.com/ashishk1331"

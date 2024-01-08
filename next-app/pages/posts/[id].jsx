@@ -1,48 +1,11 @@
 import { Client } from "@notionhq/client";
+import { Parser } from "tetrapack";
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 import Button from "../../components/Button";
 import Footer from "../../components/Footer";
 import { ArrowLeft, Check, BookmarkSimple } from "@phosphor-icons/react";
-
-function parser(block) {
-	switch (block.type) {
-		case "paragraph":
-			return (
-				<p key={block.id} className="md:text-lg">
-					{block[block.type]?.rich_text[0]?.plain_text || ""}
-				</p>
-			);
-
-		case "image":
-			return (
-				<>
-					<div
-						className="w-full h-fit border-2 rounded flex mt-12 mb-2"
-						key={block.id}
-					>
-						<Image
-							src={block[block.type].file.url}
-							width={640}
-							height={640}
-							className="w-auto max-h-[480px] mx-auto"
-							alt={block[block.type].caption[0].plain_text}
-						/>
-					</div>
-					<p
-						key={block.id + "caption"}
-						className="mb-12 mx-auto w-fit text-gray-600 italic"
-					>
-						fig. {block[block.type].caption[0].plain_text}
-					</p>
-				</>
-			);
-
-		default:
-			return <p key={block.id}>Not supported type.</p>;
-	}
-}
 
 export default function Post(props) {
 	return (
@@ -84,21 +47,25 @@ export default function Post(props) {
 							<ArrowLeft className="w-6 h-6" />
 						</Button>
 					</Link>
-					<Image
-						src={props.data.icon.file.url}
-						width={512}
-						height={512}
-						className="w-10 h-10"
-						alt={props.data.properties.title.title[0].plain_text}
-					/>
 				</div>
 
 				<h1 className="my-6 text-4xl font-medium">
-					{" "}
-					{props.data.properties.title.title[0].plain_text}{" "}
+					{props.data.properties.title.title[0].plain_text}
 				</h1>
 
-				{props.blocks.results.map(block => parser(block))}
+				<hr className="mb-8"/>
+
+				<Parser blocks={props.blocks.results}>
+					{() => {
+						return {
+							wrapper: (text) => (
+								<div className="flex flex-col items-left gap-4 prose max-w-none">
+									{text}
+								</div>
+							),
+						};
+					}}
+				</Parser>
 
 				<Footer />
 			</main>
